@@ -1,0 +1,22 @@
+.main_container{
+    width: 90%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin : 0 auto;
+}
+
+.main_top_box{
+    width: 100%;
+    height: 350px;
+    background: url('../public/images/bg-top.jpg');
+    background-size:cover;
+    background-position: -180px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
