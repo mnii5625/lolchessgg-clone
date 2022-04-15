@@ -9,3 +9,8 @@
   * TypeScript
   * Next.js
   * Node.js
+  * AWS Mysql Database
+
+<hr>
+#### 2022/04/16 DB 기초작업
+Champion, Item, Trait 목록 DB에 입력
