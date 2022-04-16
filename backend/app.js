@@ -2,12 +2,13 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const PORT = 80;
-const { posts } = require('./data.js')
-
+const models = require("./models");
 
 app.use(cors());
-app.get('/api/post', (req, res) => {
-    res.json(posts)
-})
 
+// models.deck.create({
+//     info : "TEST"
+// }).then(_ => console.log("created!!"));
+
+models.deck.findAll().then(console.log);
 app.listen(PORT, () => console.log(`server running on ${PORT}`));

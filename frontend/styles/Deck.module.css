@@ -40,3 +40,7 @@
 .trait_hexagon[title = "darken"]{
     background: url('../public/images/trait/darken.svg');
 }
+
+.trait_hexagon[title = "bronze"]{
+    background: url('../public/images/trait/bronze.svg');
+}

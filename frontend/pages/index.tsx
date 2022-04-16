@@ -8,7 +8,7 @@ import logo from '../public/images/lolchessgg-logo-bkbg.png';
 import banner_naver from '../public/images/banner-naver-search-20211116.png';
 
 import SearchBox from '../components/SearchBox';
-import MetaDeck from '../components/MetaDeck';
+import MetaDeck from '../components/MetaTrends/Deck';
 
 
 const Home: NextPage = () => {
